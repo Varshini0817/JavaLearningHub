@@ -16,7 +16,7 @@ public class SmartDoorLockSystem {
         int pin = sc.nextInt();
         System.out.print("Enter stored PIN: ");
         int stPin = sc.nextInt();
-        int cnt = 0;
+        int cnt = 1;
         String msg ;
         while(cnt<3){
             cnt++;
