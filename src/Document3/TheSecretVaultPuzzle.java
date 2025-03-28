@@ -16,7 +16,6 @@ public class TheSecretVaultPuzzle {
         Scanner sc = new Scanner(System.in);
         int a[] = new int[3];
         a= new int[]{3, 4, 5};
-        int entries[] = new int[3];
         boolean flag = false;
         for(int i=0; i<3; i++){
             System.out.print("Enter number "+(i+1)+": ");
