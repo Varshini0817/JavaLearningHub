@@ -17,6 +17,10 @@ public class TheMagicMultiplicationTableGenerator {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int n = sc.nextInt();
+        if(n<=0){
+            System.out.println("Invalid input! Please enter a positive\n" + "number.");
+            return;
+        }
         System.out.print("Enter limit: ");
         int lim = sc.nextInt();
         System.out.println("The multiplication table of "+n+" is: ");
