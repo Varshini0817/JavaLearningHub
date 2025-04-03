@@ -2,7 +2,14 @@ package Document4;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+ Q. Number Finder (Stop When Found)
+ Scenario: Searching for a number? Stop once found!
+ Task:
+ Take a list of numbers & a search input.
+ If number found → break & show success message!
+ If not found → Keep searching!
+ */
 public class NumberFinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
